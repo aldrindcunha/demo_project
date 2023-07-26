@@ -1,0 +1,367 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    height: 76px;
+    width: 87px;
+    
+    
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding: 59px 0px 0px 450px;
+    
+    
+}
+
+.container{
+    background-color: black;
+    color: black;
+    width: 1129px;
+    height: 100%;
+    border-radius: 20px;    
+}
+
+
+.right{
+    float: right;
+    padding-right: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 30px;
+    
+    
+}
+ul li{
+    padding: 0px;
+    margin: 0px;
+}
+
+.head{
+    margin: 10px;
+    float: left;
+    
+
+}
+.second1{
+    margin: 3px;
+    padding: 22px;
+    background-color: yellow;
+    cursor: pointer;
+} 
+.second2{
+    margin: 3px;
+    padding: 22px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.secondlist{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.head:hover{
+    background-color: rgb(245, 235, 237);
+    cursor: pointer;
+}
+
+.img1{
+   height: 15px; 
+   width: 33px;
+}
+
+span{
+    height: 20px;
+    width: 10px;
+}
+.search1{
+    padding-left: 8px;
+}
+.list1:hover  {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.firstlist{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 273px;
+    margin-bottom: 60px;
+    padding: 5px;
+    margin-right: 195px;
+    margin-top: 50px;
+    cursor: default; 
+
+    
+
+} 
+
+
+
+.second{
+    background-color: yellow;
+    border: 3px solid black;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    width: 242px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 139px;
+    width: 1129px;
+    cursor: default;
+    height: 100%;
+}
+
+.news{
+    font-family: 'Genos', sans-serif;
+    font-size: 50px;
+    padding: 0px;
+     margin: 0px;
+     margin-top: 30px;
+     cursor: default;
+    
+}
+.stay{    
+     font-family: 'Rampart One', cursive;
+     font-size: 60px;
+     padding: 0px;
+     margin: 0px;
+     margin-top: 40px; 
+     cursor: default;    
+    
+}
+
+.firstcontainer{  
+   background-color: black;
+   widows: 1129px;
+   display: flex;
+   justify-content: left;
+   margin: 10px;
+   border-radius: 30px;
+   height: 100%;
+   
+   
+}
+.newfeed{
+    color: black;
+    font-family: 'Genos', sans-serif;
+    margin-right: 20px;
+    background-color: white;
+    padding: 3px;
+    margin-left: 10px;
+    font-size: 30px;
+    height: 46px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.saved{
+    color: black;
+    background-color: yellow;
+    padding: 3px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.secondcontainer{
+    background-color: black;
+    width: 1129px;
+    margin-left: 10px;
+    height: 100%;
+    border-radius: 30px;
+}
+.final3{
+    font-family: 'Genos', sans-serif;
+    font-size: 38px;
+    margin-left: 20px;
+    margin-bottom: -12px;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+}
+.fifth li{
+    background-color: yellow;
+    width: max-content;
+    height: max-content;
+    padding: 6px; cursor: pointer;
+    margin-right: -1px;
+    font-family: 'Genos', sans-serif;
+    font-size: 28px;  
+  
+    
+}
+
+
+
+#author1{
+    float: left;
+    margin-left: 32px;
+    width: 300px;
+    margin-bottom: 30px;
+    
+}
+
+#author2{
+    float: left;
+    margin-left: 32px;
+    width: 300px;
+    margin-bottom: 30px;
+    
+}
+
+#author3{
+    float: left;
+    margin-left: 32px;
+    width: 300px;
+    margin-bottom: 30px;
+    
+}
+#author4{
+    float: left;
+    margin-left: 32px;
+    width: 300px;
+    margin-bottom: 30px;
+    
+}
+
+.category{
+    float: right;
+    margin-right: 66px;
+    width:295px;
+    height: 52px;
+    
+    
+}
+
+.bi-heart{
+    float: right;
+    color: red;
+    margin-left: 50px;
+    
+    
+}
+
+
+button{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bi-heart-fill{
+    float: right;
+    margin-right: 66px;
+    margin-bottom: 30px;
+    height: auto;
+    width:auto;
+    cursor: pointer;
+    border: none;
+}
+
+.para1{
+    display: flex;
+    justify-content: space-between;    
+    background-color: bisque;
+    width: 1129px;
+    height: 100%;
+    margin-right: 60px;
+    border-radius: 30px;
+}
+
+#general1{
+    margin: 30px;
+    
+}
+
+#general2{
+    margin: 30px;
+}
+#general3{
+    margin: 30px;
+}
+#general4{
+    margin: 30px;
+}
+
+.card{
+    height: fit-content;
+    width: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#cardId >li{
+border: 1px solid bisque;
+background-color: bisque;
+border-radius: 20px;
+margin: 5px;
+}
+
+.card-para{
+    margin-left: 15px;
+    
+}
+h4{
+    margin-left: 15px;
+}
+
+
+#refCardId >li{
+    border: 1px solid bisque;
+    background-color: bisque;
+    border-radius: 20px;
+    margin: 5px;
+    position: relative;
+    }
+
+    #list1{
+        position: relative;
+    }
+
+    #readmore{
+        cursor: pointer;
+        position: absolute;
+        
+    
+    }
+
+
